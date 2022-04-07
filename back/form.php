@@ -23,19 +23,21 @@ $sueldos=0;
 $factor=0;
 $rebaja=0;
 $base_global=($sueldos+($honorarios-$presuntos));
-$final=($base*$factor)-($honorarios*$factor)
-if($final<0){
-    ?>
- <html>
-    <a>Hay devolucion</a>
- </html>
-<?php
-}else{
-    ?>
- <html>
-    <a>Tiene que pagar impuestos</a>
- </html>
-<?php
+$final=($base_global*$factor)-($honorarios*$factor);
+if($final!=0){
+   if($final<0){
+       ?>
+    <html>
+       <a>Hay devolucion</a>
+    </html>
+   <?php
+   }else{
+       ?>
+    <html>
+       <a>Tiene que pagar impuestos</a>
+    </html>
+   <?php
+   }
 }
 
 ?>
