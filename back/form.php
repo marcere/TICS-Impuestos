@@ -17,7 +17,7 @@ $honorarios=0;
 $presuntos=$honorarios*0.3;
 $honorarioMax=0;
 if($presuntos>$honorarioMax){
-$presuntos=$honorarioMax;
+   $presuntos=$honorarioMax;
 }
 $sueldos=0;
 $factor=0;
