@@ -12,7 +12,7 @@
     </head>
 
     <body>
-        <div class="container d-flex flex-wrap" max-width="auto" heigth="auto" style="background-color:#E2EAE1">
+        <div class="container d-flex flex-wrap" max-width="auto" heigth="auto" style="background-color:#7F9FC9">
             <a href="indexnuevoo.php" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"></svg>
                 <span class="fs-4">Tax Help App</span>
@@ -33,14 +33,15 @@
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="col text-center">
-                    <div class="opacity-75">
+                    <div class="opacity-50">
                         <img class="img-responsive" width="65%" src="back/img/fp_princi_impuestos_210420.png"><rect width=100% fill="#777"></rect></img>
                     </div>
                     <div class="container">
                         <div class="carousel-caption">
                             <h1  style="color:black">OPERACION RENTA 2022</h1>
-                            <p style="color:yellow">Porque sabemos que buscas lo mejor, revisa nuestro catálogo actualizado.</p>
-                            <p><a class="btn btn-lg btn-primary" href="catalogo.php" style="background-color:#2C434F">Ver todo</a></p>
+                            <p style="color:black">Comienza con nosotros a revisar tu proceso de renta anual</p>
+                            <p><a class="btn btn-lg btn-primary" href="back/form.php" style="background-color:#2C434F">Comenzar</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="back/logs/login.php" style="background-color:#2C434F">Ingresar</a></p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +51,7 @@
         <div class="container">
             <footer class="py-1 my-1">
                 <ul class="nav pb-2 mb-2 justify-content-center">
-                    <p class="text-muted">© 2022-2 Enzzo Ayala y Marcelo Ull, Proyecto en TICS</p>
+                    <p class="text-muted">© 2022-1 Enzzo Ayala y Marcelo Ull, Proyecto en TICS</p>
                 </ul>
             </footer>
         </div>
